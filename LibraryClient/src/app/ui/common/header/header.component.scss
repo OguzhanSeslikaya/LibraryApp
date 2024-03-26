@@ -1,0 +1,23 @@
+header{
+    background-color: var(--color5);
+    color: var(--color1);
+}
+
+.navbar-container{
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 30px;
+        a{
+            color: var(--color1);
+            margin: 0 10px;
+            padding: 10px;
+            text-decoration: none;
+        }
+        a:hover{
+            background-color: var(--color4);
+            border-radius: 15px;
+            cursor: pointer;
+        }
+}

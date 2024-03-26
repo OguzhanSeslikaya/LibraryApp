@@ -1,0 +1,34 @@
+.book-list-container{
+    display: flex;
+    justify-content: center;
+
+    .book-list-table{
+        border-spacing: 10px;
+        .item{
+            font-size: 16px;
+            color: var(--color5);
+            text-align: center;
+            background-color: var(--color1);
+            border: 7px solid var(--color5);
+            border-radius: 20px;
+            padding: 5px;
+        }
+
+        .edit-button{
+            padding: 5px;
+            font-size: 16px;
+            background-color: var(--color5);
+            color: var(--color1);
+            border: 5px solid var(--color4);
+            border-radius: 15px;
+        }
+
+        .edit-button:hover{
+            background-color: var(--color1);
+            color: var(--color5);
+            cursor: pointer;
+        }
+    }
+    
+}
+

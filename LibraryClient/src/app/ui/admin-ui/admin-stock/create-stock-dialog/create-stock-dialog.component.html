@@ -1,0 +1,18 @@
+<mat-dialog-content>
+    <form [formGroup]="this.stockForm">
+        <div class="create-stock-container">
+            <div class="input-box">
+                <label for="bookname">Kitap Adı</label><input type="text" id="bookname" formControlName="bookname">
+            </div>
+            <div class="input-box">
+                <label for="stockQuantity">Stok Miktarı</label><input type="number" id="stockQuantity"
+                    formControlName="stockQuantity">
+            </div>
+            <div class="button-box">
+                <button
+                    [mat-dialog-close]="{bookName:this.stockForm.value.bookname,quantity:this.stockForm.value.stockQuantity}">Stok
+                    Oluştur</button>
+            </div>
+        </div>
+    </form>
+</mat-dialog-content>

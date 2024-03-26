@@ -1,0 +1,106 @@
+﻿@model ReturnUrlVM
+<style>
+    .register-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+    }
+
+    .register-box {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 400px;
+        height: 500px;
+        background-color: #474D59;
+        color: #D0D4D9;
+        border: 10px solid #626773;
+        border-radius: 50px;
+    }
+
+    .input-box {
+        font-size: 25px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 10px 20px;
+    }
+
+    input {
+        border: 5px solid #626773;
+        border-radius: 15px;
+        padding: 10px;
+        background-color: #D0D4D9;
+    }
+
+    .title-box {
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .button-box {
+        margin: 30px 0 0 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    button {
+        background-color: #626773;
+        color: #D0D4D9;
+        margin: 5px;
+        padding: 5px 20px;
+        border-radius: 15px;
+        font-size: 25px;
+        border: 2px solid #D0D4D9;
+    }
+
+        button:hover {
+            cursor: pointer;
+            background-color: #D0D4D9;
+            color: #626773;
+        }
+
+    a {
+        margin: 20px 0 0 20px;
+        background-color: #626773;
+        color: #D0D4D9;
+        padding: 5px 10px;
+        border-radius: 15px;
+        font-size: 25px;
+        border: 2px solid #D0D4D9;
+        text-decoration: none;
+    }
+
+        a:hover {
+            background-color: #D0D4D9;
+            color: #626773;
+        }
+</style>
+
+<div class="register-container">
+    <div class="register-box">
+        <form asp-action="register" method="post">
+            <div class="title-box">
+                <h1>Register Form</h1>
+            </div>
+            <input type="hidden" name="returnUrl" value="@Model.ReturnUrl"></input>
+            <div class="input-box">
+                <label for="Username">Username</label>
+                <input id="Username" name="username" type="text" />
+            </div>
+            <div class="input-box">
+                <label for="Password">Password</label>
+                <input id="Password" name="password" type="password" />
+            </div>
+            <div class="button-box">
+                <button type="submit">Register</button>
+                <a asp-action="login" asp-route-ReturnUrl="@Model.ReturnUrl">Login Form</a>
+            </div>
+
+        </form>
+    </div>
+</div>

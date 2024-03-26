@@ -1,0 +1,19 @@
+<mat-dialog-content>
+    <form [formGroup]="this.stockForm">
+        <div class="edit-stock-container">
+            <div class="input-box">
+                <label for="totalQuantity">Değişecek Toplam Miktar</label><input type="number" id="totalQuantity" formControlName="totalQuantity">
+            </div>
+            <div class="button-box">
+                <button [mat-dialog-close]="{totalQuantity:this.stockForm.value.totalQuantity}">Toplam Miktarı değiştir</button>
+            </div>
+            <div class="input-box">
+                <label for="currentQuantity">Değişecek Kullanılabilir Miktar</label><input type="number" id="currentQuantity"
+                    formControlName="currentQuantity">
+            </div>
+            <div class="button-box">
+                <button [mat-dialog-close]="{currentQuantity:this.stockForm.value.currentQuantity}">Kullanılabilir Miktarı değiştir</button>
+            </div>
+        </div>
+    </form>
+</mat-dialog-content>

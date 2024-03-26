@@ -1,0 +1,32 @@
+<div class="admin-loan-container">
+    <table class="loans-table">
+        <thead>
+            <tr>
+                <th class="search-box" ><label for="search">Kullanıcı Adı</label><input type="text" id="search" #usernameInput></th>
+                <th class="search-box" ><button class="button" (click)="getLoansByUsername(usernameInput.value)">Ara</button></th>
+            </tr>
+            <tr>
+                <th class="item">Kullanıcı Id</th>
+                <th class="item">Kullanıcı Adı</th>
+                <th class="item">Kitap Barkod</th>
+                <th class="item">Veriliş Tarihi</th>
+                <th class="item">Dönüş Tarihi</th>
+                <th class="item">Son Durum</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @for (item of loans; track $index) {
+                <tr>
+                    <td class="item">{{item.userId}}</td>
+                    <td class="item">{{item.username}}</td>
+                    <td class="item">{{item.bookId}}</td>
+                    <td class="item">{{item.loanDate}}</td>
+                    <td class="item">{{(item.returnDate?item.returnDate:"Dönüş Tarihi Bulunmamaktadır")}}</td>
+                    <td class="item">{{item.state}}</td>
+                    @if (!item.returnDate && item.state=="borrowed") {<td class="item"> <button class="button" (click)="giveBack($index)">İade İşlemini gerçekleştir</button></td>}
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

@@ -1,0 +1,21 @@
+<header>
+    <nav>
+        <div class="navbar-container">
+            <div class="navbar-right-side">
+                <a routerLink="book-list">Kitaplar</a>
+                <a routerLink="create-loan">Ödünç Al</a>
+                <a routerLink="loan-list">Ödünç Aldığım Kitaplar</a>
+            </div>
+            <div class="navbar-left-side">
+                @if (_isAdmin) {
+                    <a routerLink="admin">Admin</a>
+                }
+                @if (!_isAuthenticated) {
+                    <a (click)="login()">Login</a>
+                }@else {
+                    <a (click)="logout()">Logout</a>
+                }
+            </div>
+        </div>
+    </nav>
+</header>

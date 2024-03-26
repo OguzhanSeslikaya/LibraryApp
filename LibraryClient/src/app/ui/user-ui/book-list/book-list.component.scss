@@ -1,0 +1,21 @@
+.book-list-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+
+    .book-list-table{
+        border-spacing: 10px;
+        .item{
+            font-size: 20px;
+            color: var(--color5);
+            text-align: center;
+            background-color: var(--color1);
+            border: 7px solid var(--color5);
+            border-radius: 20px;
+            padding: 20px;
+        } 
+    }
+    
+}
+

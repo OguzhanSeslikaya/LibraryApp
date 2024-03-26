@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --color1:#D0D4D9;
+    --color2: #0C0D0D;
+    --color3:#979CA6;
+    --color4:#626773;
+    --color5:#474D59;
+}
+body{
+    background-color: var(--color1);
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

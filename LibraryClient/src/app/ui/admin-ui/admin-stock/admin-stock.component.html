@@ -1,0 +1,24 @@
+<div class="book-list-container">
+    <table class="book-list-table">
+        <thead>
+            <tr>
+                <th class="item">Barkod</th>
+                <th class="item">Kitap İsmi</th>
+                <th class="item">Toplam Stok</th>
+                <th class="item">Ödünç Alınabilir Stok</th>
+                <th class="item"><button class="edit-button" (click)="createStockDialog()">Stok Oluştur</button></th>
+            </tr>
+        </thead>
+        <tbody>
+            @for (item of books; track $index) {
+                <tr>
+                    <td class="item">{{item.stockId}}</td>
+                    <td class="item">{{item.bookName}}</td>
+                    <td class="item">{{item.totalQuantity}}</td>
+                    <td class="item">{{item.currentQuantity}}</td>
+                    <td class="item"><button type="button" class="edit-button" (click)="editStockDialog(item.stockId)">Düzenle</button></td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

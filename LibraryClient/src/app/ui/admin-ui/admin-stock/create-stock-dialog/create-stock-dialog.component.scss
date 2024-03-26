@@ -1,0 +1,46 @@
+.create-stock-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 300px;
+    height: 400px;
+}
+
+.input-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    label{
+        font-size: 20px;
+        width: 40%;
+        color: var(--color2);
+    }
+    input{
+        border: 3px solid var(--color2);
+        border-radius: 10px;
+        width: 50%;
+        font-size: 20px;
+        padding: 5px;
+        text-align: center;
+    }
+}
+
+.button-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    button{
+        background-color: transparent;
+        border: 3px solid var(--color4);
+        color: var(--color2);
+        padding: 10px;
+        font-size: 20px;
+        border-radius: 10px;
+    }
+    button:hover{
+        border: 3px solid var(--color4);
+        color: var(--color1);
+        background-color: var(--color4);
+        cursor: pointer;
+    }
+}
+

@@ -1,0 +1,22 @@
+<div class="loan-list-container">
+    <table class="loans-table">
+        <thead>
+            <tr>
+                <th class="item">Kitap Barkod</th>
+                <th class="item">Veriliş Tarihi</th>
+                <th class="item">Dönüş Tarihi</th>
+                <th class="item">Son Durum</th>
+            </tr>
+        </thead>
+        <tbody>
+            @for (item of loans; track $index) {
+                <tr>
+                    <td class="item">{{item.bookId}}</td>
+                    <td class="item">{{item.loanDate}}</td>
+                    <td class="item">{{(item.returnDate?item.returnDate:"Dönüş Tarihi Bulunmamaktadır")}}</td>
+                    <td class="item">{{item.state}}</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

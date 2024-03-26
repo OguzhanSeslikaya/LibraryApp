@@ -1,0 +1,153 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Oguzhan\\Desktop\\Projeler\\Library - Application\\LibraryAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9B80516F-3E66-4F1B-8BF8-456FD45856DD}|Services\\IdentityService\\Identity.API\\Identity.API.csproj|c:\\users\\oguzhan\\desktop\\projeler\\library - application\\libraryapi\\services\\identityservice\\identity.api\\entities\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B80516F-3E66-4F1B-8BF8-456FD45856DD}|Services\\IdentityService\\Identity.API\\Identity.API.csproj|solutionrelative:services\\identityservice\\identity.api\\entities\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6563A6B-F97A-4F85-B00F-88580F8D7695}|Services\\LoanService\\Loan.Outbox.Publisher.Service\\Loan.Outbox.Publisher.Service.csproj|c:\\users\\oguzhan\\desktop\\projeler\\library - application\\libraryapi\\services\\loanservice\\loan.outbox.publisher.service\\jobs\\loanoutboxpublishjob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6563A6B-F97A-4F85-B00F-88580F8D7695}|Services\\LoanService\\Loan.Outbox.Publisher.Service\\Loan.Outbox.Publisher.Service.csproj|solutionrelative:services\\loanservice\\loan.outbox.publisher.service\\jobs\\loanoutboxpublishjob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC8965ED-EF5B-4791-890F-322AFE0CC907}|Services\\StockService\\Stock.Outbox.Publisher.Service\\Stock.Outbox.Publisher.Service.csproj|c:\\users\\oguzhan\\desktop\\projeler\\library - application\\libraryapi\\services\\stockservice\\stock.outbox.publisher.service\\jobs\\stockoutboxpublishjob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC8965ED-EF5B-4791-890F-322AFE0CC907}|Services\\StockService\\Stock.Outbox.Publisher.Service\\Stock.Outbox.Publisher.Service.csproj|solutionrelative:services\\stockservice\\stock.outbox.publisher.service\\jobs\\stockoutboxpublishjob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36BAAE6F-52CC-4B90-BC72-FB594E0AAA3A}|Services\\StockService\\Stock.EventHandler.Service\\Stock.EventHandler.Service.csproj|c:\\users\\oguzhan\\desktop\\projeler\\library - application\\libraryapi\\services\\stockservice\\stock.eventhandler.service\\services\\eventstoreservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36BAAE6F-52CC-4B90-BC72-FB594E0AAA3A}|Services\\StockService\\Stock.EventHandler.Service\\Stock.EventHandler.Service.csproj|solutionrelative:services\\stockservice\\stock.eventhandler.service\\services\\eventstoreservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80F3F1F5-7613-4885-BA94-83CFF7253093}|Services\\LoanService\\Loan.API\\Loan.API.csproj|c:\\users\\oguzhan\\desktop\\projeler\\library - application\\libraryapi\\services\\loanservice\\loan.api\\controllers\\loancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80F3F1F5-7613-4885-BA94-83CFF7253093}|Services\\LoanService\\Loan.API\\Loan.API.csproj|solutionrelative:services\\loanservice\\loan.api\\controllers\\loancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80F3F1F5-7613-4885-BA94-83CFF7253093}|Services\\LoanService\\Loan.API\\Loan.API.csproj|c:\\users\\oguzhan\\desktop\\projeler\\library - application\\libraryapi\\services\\loanservice\\loan.api\\services\\concretes\\loanservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80F3F1F5-7613-4885-BA94-83CFF7253093}|Services\\LoanService\\Loan.API\\Loan.API.csproj|solutionrelative:services\\loanservice\\loan.api\\services\\concretes\\loanservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F612A520-1C23-458A-99EB-51D1C15CB768}|Services\\StockService\\Stock.API\\Stock.API.csproj|c:\\users\\oguzhan\\desktop\\projeler\\library - application\\libraryapi\\services\\stockservice\\stock.api\\controllers\\stockcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F612A520-1C23-458A-99EB-51D1C15CB768}|Services\\StockService\\Stock.API\\Stock.API.csproj|solutionrelative:services\\stockservice\\stock.api\\controllers\\stockcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80F3F1F5-7613-4885-BA94-83CFF7253093}|Services\\LoanService\\Loan.API\\Loan.API.csproj|c:\\users\\oguzhan\\desktop\\projeler\\library - application\\libraryapi\\services\\loanservice\\loan.api\\services\\abstractions\\iloanservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80F3F1F5-7613-4885-BA94-83CFF7253093}|Services\\LoanService\\Loan.API\\Loan.API.csproj|solutionrelative:services\\loanservice\\loan.api\\services\\abstractions\\iloanservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AppUser.cs",
+              "DocumentMoniker": "C:\\Users\\Oguzhan\\Desktop\\Projeler\\Library - Application\\LibraryAPI\\Services\\IdentityService\\Identity.API\\Entities\\Models\\AppUser.cs",
+              "RelativeDocumentMoniker": "Services\\IdentityService\\Identity.API\\Entities\\Models\\AppUser.cs",
+              "ToolTip": "C:\\Users\\Oguzhan\\Desktop\\Projeler\\Library - Application\\LibraryAPI\\Services\\IdentityService\\Identity.API\\Entities\\Models\\AppUser.cs",
+              "RelativeToolTip": "Services\\IdentityService\\Identity.API\\Entities\\Models\\AppUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-24T13:33:17.595Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoanOutboxPublishJob.cs",
+              "DocumentMoniker": "C:\\Users\\Oguzhan\\Desktop\\Projeler\\Library - Application\\LibraryAPI\\Services\\LoanService\\Loan.Outbox.Publisher.Service\\Jobs\\LoanOutboxPublishJob.cs",
+              "RelativeDocumentMoniker": "Services\\LoanService\\Loan.Outbox.Publisher.Service\\Jobs\\LoanOutboxPublishJob.cs",
+              "ToolTip": "C:\\Users\\Oguzhan\\Desktop\\Projeler\\Library - Application\\LibraryAPI\\Services\\LoanService\\Loan.Outbox.Publisher.Service\\Jobs\\LoanOutboxPublishJob.cs",
+              "RelativeToolTip": "Services\\LoanService\\Loan.Outbox.Publisher.Service\\Jobs\\LoanOutboxPublishJob.cs",
+              "ViewState": "AQIAADQAAAAAAAAAAAAQwEUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-24T13:31:18.523Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StockOutboxPublishJob.cs",
+              "DocumentMoniker": "C:\\Users\\Oguzhan\\Desktop\\Projeler\\Library - Application\\LibraryAPI\\Services\\StockService\\Stock.Outbox.Publisher.Service\\Jobs\\StockOutboxPublishJob.cs",
+              "RelativeDocumentMoniker": "Services\\StockService\\Stock.Outbox.Publisher.Service\\Jobs\\StockOutboxPublishJob.cs",
+              "ToolTip": "C:\\Users\\Oguzhan\\Desktop\\Projeler\\Library - Application\\LibraryAPI\\Services\\StockService\\Stock.Outbox.Publisher.Service\\Jobs\\StockOutboxPublishJob.cs",
+              "RelativeToolTip": "Services\\StockService\\Stock.Outbox.Publisher.Service\\Jobs\\StockOutboxPublishJob.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAQwCoAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-24T13:30:55.845Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EventStoreService.cs",
+              "DocumentMoniker": "C:\\Users\\Oguzhan\\Desktop\\Projeler\\Library - Application\\LibraryAPI\\Services\\StockService\\Stock.EventHandler.Service\\Services\\EventStoreService.cs",
+              "RelativeDocumentMoniker": "Services\\StockService\\Stock.EventHandler.Service\\Services\\EventStoreService.cs",
+              "ToolTip": "C:\\Users\\Oguzhan\\Desktop\\Projeler\\Library - Application\\LibraryAPI\\Services\\StockService\\Stock.EventHandler.Service\\Services\\EventStoreService.cs",
+              "RelativeToolTip": "Services\\StockService\\Stock.EventHandler.Service\\Services\\EventStoreService.cs",
+              "ViewState": "AQIAADMAAAAAAAAAAAAQwC4AAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-24T02:43:09.414Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "StockController.cs",
+              "DocumentMoniker": "C:\\Users\\Oguzhan\\Desktop\\Projeler\\Library - Application\\LibraryAPI\\Services\\StockService\\Stock.API\\Controllers\\StockController.cs",
+              "RelativeDocumentMoniker": "Services\\StockService\\Stock.API\\Controllers\\StockController.cs",
+              "ToolTip": "C:\\Users\\Oguzhan\\Desktop\\Projeler\\Library - Application\\LibraryAPI\\Services\\StockService\\Stock.API\\Controllers\\StockController.cs",
+              "RelativeToolTip": "Services\\StockService\\Stock.API\\Controllers\\StockController.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAQwCgAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-24T02:36:36.744Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LoanController.cs",
+              "DocumentMoniker": "C:\\Users\\Oguzhan\\Desktop\\Projeler\\Library - Application\\LibraryAPI\\Services\\LoanService\\Loan.API\\Controllers\\LoanController.cs",
+              "RelativeDocumentMoniker": "Services\\LoanService\\Loan.API\\Controllers\\LoanController.cs",
+              "ToolTip": "C:\\Users\\Oguzhan\\Desktop\\Projeler\\Library - Application\\LibraryAPI\\Services\\LoanService\\Loan.API\\Controllers\\LoanController.cs",
+              "RelativeToolTip": "Services\\LoanService\\Loan.API\\Controllers\\LoanController.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAgwBgAAABkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-23T23:50:49.306Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ILoanService.cs",
+              "DocumentMoniker": "C:\\Users\\Oguzhan\\Desktop\\Projeler\\Library - Application\\LibraryAPI\\Services\\LoanService\\Loan.API\\Services\\Abstractions\\ILoanService.cs",
+              "RelativeDocumentMoniker": "Services\\LoanService\\Loan.API\\Services\\Abstractions\\ILoanService.cs",
+              "ToolTip": "C:\\Users\\Oguzhan\\Desktop\\Projeler\\Library - Application\\LibraryAPI\\Services\\LoanService\\Loan.API\\Services\\Abstractions\\ILoanService.cs",
+              "RelativeToolTip": "Services\\LoanService\\Loan.API\\Services\\Abstractions\\ILoanService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-23T23:36:15.231Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LoanService.cs",
+              "DocumentMoniker": "C:\\Users\\Oguzhan\\Desktop\\Projeler\\Library - Application\\LibraryAPI\\Services\\LoanService\\Loan.API\\Services\\Concretes\\LoanService.cs",
+              "RelativeDocumentMoniker": "Services\\LoanService\\Loan.API\\Services\\Concretes\\LoanService.cs",
+              "ToolTip": "C:\\Users\\Oguzhan\\Desktop\\Projeler\\Library - Application\\LibraryAPI\\Services\\LoanService\\Loan.API\\Services\\Concretes\\LoanService.cs",
+              "RelativeToolTip": "Services\\LoanService\\Loan.API\\Services\\Concretes\\LoanService.cs",
+              "ViewState": "AQIAAF4AAAAAAAAAAAAmwEwAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-23T23:35:39.743Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

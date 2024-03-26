@@ -1,0 +1,57 @@
+.admin-loan-container{
+
+
+    .loans-table{
+        border-spacing: 10px;
+        
+        .item{
+            font-size: 16px;
+            color: var(--color5);
+            text-align: center;
+            background-color: var(--color1);
+            border: 5px solid var(--color5);
+            border-radius: 20px;
+            padding: 5px;
+            overflow: hidden;
+        }
+   
+        .search-box{
+            padding: 15px;
+            border: 5px solid var(--color5);
+            border-radius: 10px;
+        }
+        
+        label{
+            color: var(--color5);
+            font-size: 18px;
+        }
+
+        input{
+            font-size: 18px;
+            text-align: center;
+            outline: none;
+            margin: 5px;
+            padding: 5px;
+            border-radius: 10px;
+            background-color: transparent;
+            border: 2px solid var(--color2);
+            color: var(--color5);
+        }
+
+        .button{
+            padding: 10px;
+            font-size: 16px;
+            background-color: var(--color5);
+            color: var(--color1);
+            border: 5px solid var(--color4);
+            border-radius: 15px;
+        }
+
+        .button:hover{
+            background-color: var(--color1);
+            color: var(--color5);
+            cursor: pointer;
+        }
+    }
+    
+}
