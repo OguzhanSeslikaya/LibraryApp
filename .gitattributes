@@ -1,1 +1,3 @@
-static/* linguist-vendored
+*.csharp linguist-detectable=true
+*.ts linguist-detectable=true
+*.html linguist-detectable=false
