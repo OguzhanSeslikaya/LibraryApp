@@ -15,5 +15,23 @@
 
 <p>Eğer yetkili bir kullanıcı iseniz, size özel olarak bulunan admin endpointine erişebilirsiniz. Burada mevcut stokları güncelleyebilir, ödünç alma taleplerini inceleyebilir veya ödünç alınan kitapların iadesini gerçekleştirebilirsiniz.</p>
 
+<h2>Kullanılan Harici Teknolojiler</h2>
+<h3>API</h3>
+<ul>
+  <li>Identity Server 4</li>
+  <li>IdentityServer4.AspNetIdentity</li>
+  <li>PostgreSQL</li>
+  <li>RabbitMQ</li>
+  <li>Dapper</li>
+  <li>Quartz</li>
+  <li>MongoDB</li>
+</ul>
+<h3>Client</h3>
+<ul>
+  <li>Alertify JS</li>
+  <li>NGX-Spinner</li>
+  <li>angular-auth-oidc-client</li>
+</ul>
+
 <h2>Daha Fazla Bilgi</h2>
-<p>Uygulama hakkında daha fazla bilgi edinmek istiyorsanız, kodları incelemeniz tavsiye edilir.</p>
+<p>Uygulama hakkında daha fazla bilgi edinmek istiyorsanız, kodları inceleyebilirsiniz veya profilimdeki iletişim bilgileri kısmından bana ulaşıp sorularınızı sorabilirsiniz.</p>
