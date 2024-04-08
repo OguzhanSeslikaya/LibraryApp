@@ -15,7 +15,7 @@
 
 <p>Eğer yetkili bir kullanıcı iseniz, size özel olarak bulunan admin endpointine erişebilirsiniz. Burada mevcut stokları güncelleyebilir, ödünç alma taleplerini inceleyebilir veya ödünç alınan kitapların iadesini gerçekleştirebilirsiniz.</p>
 
-<h2>Kullanılan Harici Teknolojiler</h2>
+<h2>Kullanılan Teknolojiler</h2>
 <h3>API</h3>
 <ul>
   <li>Identity Server 4</li>
